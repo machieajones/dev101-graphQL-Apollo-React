@@ -2,6 +2,10 @@ const express = require('express');
 const app = express();
 const PORT = 4444;
 
+// Schema
+const Blog = require('./models/Blog');
+const User = require('./models/User');
+
 // mongoose 
 const mongoose = require('mongoose');
 
